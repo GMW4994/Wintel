@@ -1,4 +1,6 @@
-﻿﻿<#
+﻿﻿
+<#
+
  Script Title:     EventLogCleardown.ps1
        
  Author:           Gary Wells  
@@ -15,8 +17,9 @@
  Added gpupdate /Target:Computer /force to enforce the policy settings immediately - by default there could be a 90 minute refresh window where the values could
  be manually changed in the GUI
 
+
    
-#>   
+#>
     # 
     # This script will clear down selected Event Logs on a target host
     # Only APPLICATION, SYSTEM & SECURITY Event Logs can be targeted
